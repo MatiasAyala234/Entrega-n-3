@@ -1,0 +1,27 @@
+footer
+{
+    margin: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(to bottom, rgba(5, 7, 12, 0.596), rgba(5, 7, 12, 0.087)),rgba(255, 33, 33, 0.742);
+    background-size: cover;
+    border-style:solid;
+
+    .insta img
+    {
+        margin-top: 10px;
+        height: 100px;
+    }
+    .telef img
+    {
+        margin-top: 10px;
+        height: 100px;
+        
+    }
+    .mapa img 
+    {
+        margin-top: 10px;
+        height: 100px;
+    }
+}

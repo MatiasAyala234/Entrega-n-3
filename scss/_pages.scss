@@ -1,0 +1,98 @@
+.swiper 
+{
+    
+    width: 100%;
+    padding: 20px 0px 0;
+    
+}
+.swiper-slide
+{
+    
+    margin-left: 2%;
+    width: 95%;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+button:hover
+{
+    transform: scale(1.2); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.icons
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.icons i
+{
+    font-size: 20px;
+    color: #dc1313;
+
+} 
+.icon img
+{
+    width: 120px ;
+}
+.info-content
+{
+   display: flex;
+   justify-content: space-between;
+
+}
+.info-product
+{
+    flex-basis: 50%;
+}
+.info-product .precio
+{
+    font-size: 25px;
+    color: #dc1313;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-product h2
+{
+    font-size: 20px;
+    color: black;
+    text-transform:uppercase ;
+}
+.info-product .lore
+{
+    font-size: 14px;
+    color: black;
+}
+.imagen-muñeco img
+{
+    flex-basis: 50%;
+    text-align: right;
+    width: 100%;
+
+}
+.imagen-muñeco:hover
+{
+    transform: scale(1.2); 
+   
+}
+button
+{
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid  #dc1313;
+    border-radius: 25px;
+    color: #dc1313;
+    text-decoration: none; 
+    margin-top: 10px;
+   
+}
+

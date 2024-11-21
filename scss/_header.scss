@@ -1,0 +1,78 @@
+header
+{
+    .encabezado
+    {
+        margin: 0;
+        background: rgb(0, 133, 170);
+        text-align: center;
+        background-size: cover;
+        background-image:linear-gradient(to bottom, rgba(5, 7, 12, 0.412), rgba(5, 7, 12, 0.087)), url(../css/img/dbz/nubes.png);
+        background-size: 200px;
+    }
+
+    nav
+    {
+        max-width: 100HV;
+        margin: 0;
+        background-color: #333;
+        font-size: 20px;
+        margin-top: 0px;
+
+
+        .menu-horizontal > li:hover .menu-vertical{
+    
+            display: block;
+             
+         }
+        .menu-horizontal > li > a{
+
+            display: block;
+            padding: 15px 20px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        
+        
+        }
+        .menu-horizontal > li:hover
+        {
+
+            background-color: rgb(1, 161, 189);
+            
+        }
+        
+        .menu-horizontal
+        {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+
+           
+            li
+            {
+                .menu-vertical li:hover
+                {
+                background-color: rgba(0, 133, 170, 0.64);
+                }
+                .menu-vertical li a
+                {
+
+                display: block;
+                color: white;  
+                padding: 15px 15px 15px 20px;
+                text-decoration: none;
+                }
+                .menu-vertical
+                {
+                    z-index: 30;
+                    position: absolute;
+                    display: none;
+                    list-style: none;
+                    width: 200px;
+                    background-color: rgba(0 , 0, 0, .5);
+
+                }
+            }
+
+        }
+    }
+}

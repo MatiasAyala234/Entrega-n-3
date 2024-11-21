@@ -1,0 +1,100 @@
+main
+{
+    z-index: 1;
+
+    .contenedor
+    {
+
+        min-height: 100vh;
+        background:linear-gradient(to bottom, rgba(5, 7, 12, 0.087), rgba(5, 7, 12, 0.596)), url(../css/img/dbz/fondo.jpg) center no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+        .color
+        {
+            text-align:justify; 
+        }
+        .card
+        {
+            margin-left: 30px;
+            display: inline-block;
+            top: 50px;
+            max-height: 500px;
+            margin-bottom: 50px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover
+        {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+        }
+        .card img
+        {
+            width: 125px;
+            height: 150px;
+        }
+        .personajes
+        {
+            position:-ms-page;
+            margin-top: 5%;
+            margin-left: 25%;
+            margin-right: 25%;
+            overflow: hidden;
+            margin-bottom: 0;
+            border-radius: 10%;
+            border-style: double;
+            background-color: #333333ae;
+
+            .carouselExampleFade
+            {
+
+                .carousel-inner
+                {
+
+                    .carousel-item 
+                    {
+                        position: relative;
+                        display: none;
+                        float: left;
+                        width: 100%;
+                        margin-right: -100%;
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        transition: transform .6s ease-in-out;
+                    }
+                    .w-100 {
+                        width: 100% !important;
+                        
+                    }
+                }
+
+            }
+            .carousel-control-next, .carousel-control-prev {
+                top: 0;
+                bottom: 0;
+                z-index: 1;
+                align-items: center;
+                justify-content: center;
+                width: 40%;
+                padding: 0;
+                color: #fff;
+                text-align: center;
+                background: 0 0;
+                border: 0;
+                opacity: .5;
+                transition: opacity .15s ease;
+                position: relative;
+                display: inline-block;
+            }
+        }
+        .personajes img
+        {
+            width: 50%;
+            height: 300px;
+            display:block;
+            margin: 0;
+        }
+    }
+
+}

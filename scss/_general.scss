@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .0rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul
+{
+    margin: 0;
+}
+ol, ul {
+    padding-left: 0; 
+}
