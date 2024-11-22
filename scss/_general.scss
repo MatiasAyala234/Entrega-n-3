@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans';
+    overflow-x: hidden;
 
 }
 body
@@ -12,6 +13,7 @@ body
     height: 100vh;
     justify-content: center;
     align-items: center;
+    
 
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {

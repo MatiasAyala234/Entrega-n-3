@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans";
+  overflow-x: hidden;
 }
 
 body {
@@ -178,10 +179,12 @@ main .contenedor .color {
   text-align: justify;
 }
 main .contenedor .card {
+  justify-content: center;
   margin-left: 30px;
   display: inline-block;
   top: 50px;
-  max-height: 500px;
+  max-height: 80%;
+  max-width: 80%;
   margin-bottom: 50px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -194,10 +197,9 @@ main .contenedor .card img {
   height: 150px;
 }
 main .contenedor .personajes {
-  position: -ms-page;
   margin-top: 5%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
   overflow: hidden;
   margin-bottom: 0;
   border-radius: 10%;
