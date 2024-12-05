@@ -72,6 +72,7 @@ button:hover {
 .info-content {
   display: flex;
   justify-content: space-between;
+  overflow: visible;
 }
 
 .info-product {
@@ -97,13 +98,13 @@ button:hover {
 }
 
 .imagen-muñeco img {
-  flex-basis: 50%;
-  text-align: right;
   width: 100%;
+  transition: transform 0.3s ease;
+  margin-right: 20%;
 }
 
 .imagen-muñeco:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 button {
