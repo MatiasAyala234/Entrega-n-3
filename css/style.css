@@ -100,7 +100,6 @@ button:hover {
 .imagen-muñeco img {
   width: 100%;
   transition: transform 0.3s ease;
-  margin-right: 20%;
 }
 
 .imagen-muñeco:hover {
