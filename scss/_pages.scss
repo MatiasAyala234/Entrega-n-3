@@ -84,7 +84,7 @@ button:hover
 .imagen-muñeco img
 {
 
-    width: 100%;
+    width: 80%;
     transition: transform 0.3s ease;
     
     
@@ -107,5 +107,15 @@ button
     text-decoration: none; 
     margin-top: 10px;
    
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: visible;
 }
 
