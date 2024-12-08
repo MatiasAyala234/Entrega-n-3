@@ -215,7 +215,7 @@ main .contenedor .personajes {
   margin-left: 10%;
   margin-right: 10%;
   overflow: hidden;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   border-radius: 10%;
   border-style: double;
   background-color: rgba(51, 51, 51, 0.6823529412);
