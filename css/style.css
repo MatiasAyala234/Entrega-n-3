@@ -269,17 +269,17 @@ footer {
 }
 footer .insta img {
   margin-top: 10px;
-  height: 100px;
+  max-height: 70px;
   cursor: pointer;
 }
 footer .telef img {
   margin-top: 10px;
-  height: 100px;
+  max-height: 70px;
   cursor: pointer;
 }
 footer .mapa img {
   margin-top: 10px;
-  height: 100px;
+  max-height: 70px;
   cursor: pointer;
 }
 footer .insta:hover {
