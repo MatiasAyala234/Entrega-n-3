@@ -4,24 +4,46 @@ footer
     margin-left: 0;
     display: flex;
     justify-content: space-around;
-    background:linear-gradient(to bottom, rgba(5, 7, 12, 0.596), rgba(5, 7, 12, 0.087)),rgba(255, 33, 33, 0.742);
+    background:linear-gradient(to bottom, rgba(5, 7, 12, 0.7), rgba(5, 7, 12, 0.087)),rgba(187, 87, 0, 0.742);
     background-size: cover;
     border-style:solid;
+    overflow: visible;
+
 
     .insta img
     {
         margin-top: 10px;
         height: 100px;
+        cursor: pointer;
+       
     }
     .telef img
     {
         margin-top: 10px;
         height: 100px;
+        cursor: pointer;
         
     }
     .mapa img 
     {
         margin-top: 10px;
         height: 100px;
+        cursor: pointer;
+        
     }
+    .insta:hover
+    {
+        transform: scale(1.1);
+        
+    }
+    .mapa:hover
+    {
+        transform: scale(1.1);
+    }
+    .telef:hover
+    {
+        transform: scale(1.1);
+    }
+
+   
 }
